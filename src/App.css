@@ -48,7 +48,7 @@ margin-right: 50em;
 }
 nav{
   position:fixed;
-  left:60em;
+  left:50em;
   top:6em;
 z-index: 100;
 }
@@ -60,6 +60,7 @@ nav li{
 nav li .link{
   text-decoration: none;
   color: black;
+  text-shadow: 1px 1px whitesmoke;
   padding:1em;
   opacity: 0.5;
   transition: all 0.3s ease-in-out;
@@ -113,6 +114,7 @@ li .link:hover{
   font-family: 'Montserrat', sans-serif;
   font-size: 5em;
   text-align: left;
+  margin-top: 2em;
 }
 .about-content p{
   font-size: 1.3em;
@@ -219,7 +221,7 @@ nav{
   display: none
 }
 .about-content{
-  left:2em;
+  left:3em;
 }
 .about-content p{
   font-size: 3.5em;

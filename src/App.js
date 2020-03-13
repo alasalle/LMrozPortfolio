@@ -1,30 +1,19 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import Header from './components/Header';
-import About from './components/About';
-import Work from './components/work';
-import Contact from './components/Contact';
-import Navbar from './components/Navbar'
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Landing from "./Landing.js";
+import Reflection from "./components/reflection.js";
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar></Navbar>
-      <div className="App-header">
-      <Header></Header>
+    <Router>
+      <div className="App">
+        <Route exact path="/" component={Landing}/>
+        <Route exact path="/reflections/:id" render={({ match }) => <Reflection match={match} />}/>
       </div>
-      
-      <div className='About'>
-        <About></About>
-      </div>
-      <div className='work'>
-        <Work></Work>
-      </div>
-      <div className='contact'>
-        <Contact></Contact>
-      </div>
-    </div>
+    </Router>
   );
 }
 

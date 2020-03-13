@@ -9,10 +9,10 @@ class About extends Component {
             <div className='about-content'>
             <h1><Fade bottom cascade>About.</Fade></h1>
             <Fade bottom>
-                    <p>{data.abouttext}</p>
+                    <p style={{textShadow: "1px 1px whitesmoke"}}>{data.abouttext}</p>
             </Fade>
             </div>
-            {data.ShowAboutImage ? <img src={data.aboutImage} alt='about iamge'></img> : null}
+            {data.ShowAboutImage ? <img src={data.aboutImage} alt='Lacy Mroz'></img> : null}
             
 
         </div>  );

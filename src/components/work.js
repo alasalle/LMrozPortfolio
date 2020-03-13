@@ -8,14 +8,13 @@ class Work extends Component {
     render() { 
         return (<div>
         <h1 className='heading'>
-        <Fade bottom cascade>Work.</Fade></h1>
+        <Fade bottom cascade>Reflections.</Fade></h1>
         <div className='work-content'>
-                {data.projects.map((project)=>(
-                    <Project key={project.id}
-                             title = {project.title}
-                             service = {project.service}
-                             imageSrc = {project.imageSrc}
-                             url={project.url}
+                {data.reflections.map((result)=>(
+                    <Project key={result.id}
+                             title = {result.title}
+                             imageSrc = {result.image}
+                             url={`/reflections/${result.id}`}
                      ></Project>
                 ))}
         </div>
