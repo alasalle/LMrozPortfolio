@@ -13,7 +13,7 @@ export default
         //Contact Email
         contactEmail:'lacy.mroz91@gmail.com',
         // Add Your About Text Here
-        abouttext: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        abouttext: 'I’m Lacy Mroz. I’m a third year in Florida Gulf Coast University’s Doctor of Physical Therapy Program. Throughout this page, you’ll find some of my personal highlights, my achievements, and some of the relationships I’ve built throughout my academic career. None of that matters. None of it. All that matters is why. My why or, rather, whys are Tim, Adrienne, Sarah, Luke, and my colleagues who give their best each and every day. And finally, each and every one of my future patients who deserve a well-rounded, competent, and caring clinician who is just as passionate about their recovery as they are. You can find out more about them in these pages and take a look at everything else too!',
         aboutImage:'/resources/LacyAbout.jpg',
        //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,//true or false (Change Here)
@@ -143,10 +143,10 @@ export default
                     {type: 'txt', text: 'I’ve included pictures of my participation in the Miracle Limbs Pillow Challenge and a local beach clean up. These pictures symbolize professional growth and my ability to associate the physical therapy profession with service to others.'},
                     {type: 'picture', resource: '/resources/Community/Pillow.png', text: 'community involvement 1'},
                     {type: 'picture', resource: '/resources/Community/group.jpg', text: 'community involvement 2'},
-                    {type: 'txt', text: 'The most important photo to me though, is the one of my student, Allyson, being adopted. Throughout school, I’ve been working every Saturday and Sunday to tutor children grades K-12 who are in the foster care system. I provide 1:1 tutoring and my role is sometimes solely as a tutor. Other times, such as in Allyson’s case, I also serve as a mentor.'},
-                    {type: 'picture', resource: '/resources/Community/Feclitiy_Allyson_Tara.jpg', text: 'community involvement 3'},
-                    {type: 'txt', text: 'When I first met Allyson she was in the middle of her freshman year and failing 3 out of 5 classes. I began tutoring her and she shared with me some of the things she had been through prior to being placed with a foster family. As with many students, I was inspired by her courage and resilience, despite the fact that these two qualities showed themselves in areas that weren’t exactly included in high school curriculums.  We got to work, figured out her learning style, and it wasn’t long before she was excelling in school. She began to think about college and we researched admission requirements together. One little known fact is that students in the foster care system can attend any public university for free if they are accepted. I recently had to stop tutoring due to my clinical rotation out of state. Prior to our last session, Allyson shared with me that she thought she’d like to be a physical therapist and hoped our paths would cross again. Weeks later, I was sent this picture from her now adoptive grandmother, Jan. This young girl has so much potential and I have been humbled and grateful to be part of her growth.'},
-                    {type: 'txt', text: 'Over the course of 3 years I have tutored and helped change the academic track for over 75 students. While it may not be specifically physical therapy related (except in Allyson’s case), it is my belief that all of us in this program with the opportunity and means to achieve a doctorate owe the gift of education to others. I am happy to have contributed my small part in passing the torch.'}
+                    {type: 'txt', text: "The most important photo to me though, is the one of my student, Adrienne, being adopted. Throughout school, I’ve been working every Saturday and Sunday to tutor children grades K-12 who are in the foster care system. I provide 1:1 tutoring and my role is sometimes solely as a tutor. Other times, such as in Adrienne's case, I also serve as a mentor."},
+                    {type: 'picture', resource: '/resources/Community/group2.jpg', text: 'community involvement 3'},
+                    {type: 'txt', text: 'When I first met Adrienne she was in the middle of her freshman year and failing 3 out of 5 classes. I began tutoring her and she shared with me some of the things she had been through prior to being placed with a foster family. As with many students, I was inspired by her courage and resilience, despite the fact that these two qualities showed themselves in areas that weren’t exactly included in high school curriculums.  We got to work, figured out her learning style, and it wasn’t long before she was excelling in school. She began to think about college and we researched admission requirements together. One little known fact is that students in the foster care system can attend any public university for free if they are accepted. I recently had to stop tutoring due to my clinical rotation out of state. Prior to our last session, Adrienne shared with me that she thought she’d like to be a physical therapist and hoped our paths would cross again. Weeks later, I was sent this picture from her now adoptive grandmother, Jan. This young girl has so much potential and I have been humbled and grateful to be part of her growth.'},
+                    {type: 'txt', text: 'Over the course of 3 years I have tutored and helped change the academic track for over 75 students. While it may not be specifically physical therapy related (except in Adrienne’s case), it is my belief that all of us in this program with the opportunity and means to achieve a doctorate owe the gift of education to others. I am happy to have contributed my small part in passing the torch.'}
                     // {type: 'link', resource: 'http://www.hereyougo.com', text: "text for link"},
                     // {type: 'txt', text: 'text1 text2 text2.'},
                     // {type: 'picture', resource: 'http://www.hereyougopic.com', text: "text for alt tag"}
@@ -175,34 +175,63 @@ export default
             {
                 id: 6,
                 title: 'Responding to Change',
-                image: 'resources/Changing.jpg',
+                image: '/resources/Changing/Cole.jpg',
                 content: [
-                    {type: 'txt', text: 'text1 text1 text1 text1.'},
-                    {type: 'link', resource: 'http://www.hereyougo.com', text: "text for link"},
-                    {type: 'txt', text: 'text1 text2 text2.'},
-                    {type: 'picture', resource: 'http://www.hereyougopic.com', text: "text for alt tag"}
+                    {type: 'txt', text: 'The bad news is everything is temporary. The good news is everything is temporary. Change is inevitable and this is especially true in the healthcare field. The items I’ve included demonstrate not only my benefit to adapt to change but to lead the field towards positive change.'},
+                    {type: 'txt', text: 'The first picture I’ve included is of my friend Cole.'},
+                    {type: 'picture', resource: '/resources/Changing/Cole.jpg', text: 'responding to change 1'},
+                    {type: 'txt', text: 'He is a program director for Metro Health in St. Petersburg. As part of his job, Cole was invited to speak to area doctors and nurses about healthcare that is inclusive to patients who are transgender. I attended Cole’s session at the beginning of my first year and became acutely aware of the discrimination trans* patients are faced within the healthcare system. Trans* healthcare is a touchy subject for many. I felt personally that all people should be treated with respect for their identities and with kindness. Until my third year, I did not have the courage to bring up this topic to my peers and colleagues. I broached the subject with some of my friends and they had varying responses. Some of them were unsure how to handle situations involving pronoun usage, others were dismissive of the concept of gender identity, others like me were concerned about mistreatment and the ethics surrounding trans* healthcare rights. I made the decision with my friends who shared the same concerns that it was our professional duty to present on trans* healthcare rights for our ethics class. I ran our presentation past the trans* educators I knew and we were able to advocate for patients who are transgender. We deferred to trans* authors and emphasized the APTA code of conduct.'},
+                    {type: 'link', resource: 'http://bit.ly/discrimination-ppt', text: 'Health Discrimination PPT PDF'},
+                    {type: 'txt', text: 'This represents an area of professional growth in that I gained the courage to speak about an important issue. It also represents professional growth in that I recognized my professional duty to advocate for those who could easily be my future patients.'},
+                    {type: 'txt', text: 'In the same semester, Kaylee and I designed and presented our business proposal for Laylee Community Health Center. In some ways, I have been critical of business owners, venture capitalism, and the like. I have yearned for change, for more community based solutions to problems, for models that valued people over profits. My professor, Dr. Black, shared with us some of the business plans he had and I was struck by the ways his businesses truly benefited the communities he was serving. Together, Kaylee and I got creative. We designed a plan that collaborated with community organizers, utilized innovative technology, leveled the playing field of wealth inequality, and invested into the same community we were serving.'},
+                    {type: 'link', resource: 'http://bit.ly/laylee-proposal', text: 'Laylee Community Health Center Business Proposal'},
+                    {type: 'txt', text: 'Personally, I changed my understanding of what business ownership could be like. Professionally, I designed a business that would not just adapt to change, but would be at the forefront of bringing positive change to a struggling and impoverished community.'}
+                    // {type: 'link', resource: 'http://www.hereyougo.com', text: "text for link"},
+                    // {type: 'txt', text: 'text1 text2 text2.'},
+                    // {type: 'picture', resource: 'http://www.hereyougopic.com', text: "text for alt tag"}
                 ]
             },
             {
                 id: 7,
                 title: 'Personal to Professional',
-                image: 'resources/PersonaltoProfessional.jpg',
+                image: 'resources/Personal_to_Professional/moffitt.png',
                 content: [
-                    {type: 'txt', text: 'text1 text1 text1 text1.'},
-                    {type: 'link', resource: 'http://www.hereyougo.com', text: "text for link"},
-                    {type: 'txt', text: 'text1 text2 text2.'},
-                    {type: 'picture', resource: 'http://www.hereyougopic.com', text: "text for alt tag"}
+                    {type: 'txt', text: 'This is my good friend Elizabeth, also known as “Lizzy.”'},
+                    {type: 'picture', resource: '/resources/Personal_to_Professional/Lizzy_Coffee.jpg', text: "Lizzy Coffee"},
+                    {type: 'txt', text: 'She was a kind, warm-hearted woman who was instrumental in my success and admission into the DPT program. She was essentially a second mother to me.'},
+                    {type: 'picture', resource: '/resources/Personal_to_Professional/Lizzy_and_Me.jpg', text: "Lizzy and Me"},
+                    {type: 'txt', text: 'A year before I received my admission letter, when I was finishing up my last few prerequisites and studying to take the GRE, Lizzy was diagnosed with Stage IV ovarian cancer. She told everyone but her husband that it was Stage II.'},
+                    {type: 'txt', text: 'Over the course of her treatments, Lizzy was always upbeat. When she eventually confided to others that she was diagnosed with ovarian cancer they often couldn’t believe it. Many said to me personally “I would have never known.” But I did. Lizzy slept in a sleep number bed because her back and pelvis were hurting her frequently. Between her favorite “zero gravity position” and radiation fibrosis, she eventually developed hip flexion contractures that made it difficult for her to walk. And her fatigue was its own battle. I still have a voicemail saved on my phone that brought me to tears of both joy and pain. Lizzy and I had spent the afternoon together and she left me a voicemail thanking me, letting me know that the afternoon had been so great that “I don’t even need to take my nap!”'},
+                    {type: 'txt', text: 'Lizzy died in January of my first year at FGCU. But that she died is not as important as the fact that she lived. The life of the party. The comforting friend. The gentle comedian. She lived.'},
+                    {type: 'txt', text: 'I discussed my success at Moffitt Cancer Center earlier in this portfolio but the truth is I had planned to eventually try my hand in oncology to learn what could be done when contractures develop, or the skin burns, or the fatigue is just as powerful as quicksand. When the opportunity came up, there was at least some part of me that felt guided. I’m a firm believer that those we love live on inside of us. People impact our lives and that impact remains whether they remain or not. In any case, I heard my friend with her usual encouragement, “Oh come on! Try your hand again!” And I made the decision to apply for a clinical at Moffitt despite my fears from earlier clinical experiences.'},
+                    {type: 'picture', resource: '/resources/Personal_to_Professional/moffitt.png', text: "Moffitt Cancer Center"},
+                    {type: 'picture', resource: '/resources/Personal_to_Professional/Dabz.jpg', text: "Dabz"},
+                    {type: 'txt', text: 'The professional growth I experienced is that I now have this rotation for my resume and I have gained tools  in the oncology setting that others in my cohort do not have. My personal growth has taken the form of being able to learn what I could do to help the women in Lizzy’s situation, goodness there are so many. And in so doing I have allowed the legacy of a beloved wife, mother, friend, community member, and resident “coffee lady” to live. Live and live and live.'},
+                    {type: 'picture', resource: '/resources/Personal_to_Professional/Gary_and_Lizzy.jpg', text: "Gary and Lizzy"},
+                    {type: 'picture', resource: '/resources/Personal_to_Professional/Lizzy_ally_and_me.jpg', text: "Lizzy, Ally, and Me"}
+                    // {type: 'link', resource: 'http://www.hereyougo.com', text: "text for link"},
+                    // {type: 'txt', text: 'text1 text2 text2.'},
+                    // {type: 'picture', resource: 'http://www.hereyougopic.com', text: "text for alt tag"}
                 ]
             },
             {
                 id: 8,
                 title: 'Meaningful Collaboration',
-                image: 'resources/Collaboration.jpg',
+                image: '/resources/Collaboration/group.jpg',
                 content: [
-                    {type: 'txt', text: 'text1 text1 text1 text1.'},
-                    {type: 'link', resource: 'http://www.hereyougo.com', text: "text for link"},
-                    {type: 'txt', text: 'text1 text2 text2.'},
-                    {type: 'picture', resource: 'http://www.hereyougopic.com', text: "text for alt tag"}
+                    {type: 'txt', text: 'I moved out of the house when I was 16. I lived with a roommate until I was 18 and I’ve lived by myself ever since. I had a few close friends in college, and only one I would see or talk to every day. For the majority of my academic career, I’ve been a lone wolf.'},
+                    {type: 'picture', resource: '/resources/Collaboration/IMG_1908.jpg', text: "meaningful collaboration 1"},
+                    {type: 'txt', text: 'When I entered the DPT program at FGCU I had no intention of that changing. And of course it did. As we began Movement Science I, I quickly learned in a sink or swim fashion that I could not get through the entire program on my own. I made it my goal to lead study sessions and get a group together to collaborate.'},
+                    {type: 'picture', resource: '/resources/Collaboration/IMG_3739.jpg', text: "meaningful collaboration 2"},
+                    {type: 'txt', text: 'I reached out to members of my cohort and those interested quickly responded. We got a group together and of course that lead to other group offshoots, including the studying I’ve already written about elsewhere with Chris. We all began to improve and we all felt a little less anxiety about the coming years. We also all became great friends.'},
+                    {type: 'picture', resource: '/resources/Collaboration/IMG_3737.jpg', text: "meaningful collaboration 3"},
+                    {type: 'picture', resource: '/resources/Collaboration/IMG_3738.jpg', text: "meaningful collaboration 4"},
+                    {type: 'txt', text: 'The DPT program has brought me the best and most fulfilling friendships I could imagine for myself. Lauren, Katherine, Kaylee, Adrienne, Paige, and Chris are some of the most genuine, wise, and caring people I know. They also have incredible drive, dedication, and passion for physical therapy. Throughout these three years I’ve learned the benefits of genuine friendship and the many ways that studying with other people can make me better.'},
+                    {type: 'picture', resource: '/resources/Collaboration/IMG_3375.jpg', text: "meaningful collaboration 5"},
+                    {type: 'txt', text: 'Personally, my life is happier and more fulfilled with such enduring friendships in my life. And professionally, all of our patients deserve better than a physical therapist with a lone wolf mentality. Through their love and support, my friends have made me happier and less stressed and through our long and arduous study sessions, with all of our different strengths and weaknesses, they’ve made me a better physical therapist.'}
+                    // {type: 'link', resource: 'http://www.hereyougo.com', text: "text for link"},
+                    // {type: 'txt', text: 'text1 text2 text2.'},
+                    // {type: 'picture', resource: 'http://www.hereyougopic.com', text: "text for alt tag"}
                 ]
             }
         ]
