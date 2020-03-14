@@ -121,7 +121,7 @@ export default
             {
                 id: 3,
                 title: 'Areas of Personal Growth',
-                image: 'resources/Personal_Growth/logo2.jpg',
+                image: 'resources/Personal_Growth/logo2.png',
                 content: [
                     {type: 'txt', text: 'The program offered at Florida Gulf Coast University is a challenging program. Having attended an honors high school and an honors college, I was not unfamiliar with high academic standards and expectations of excellence. Nevertheless, this program pushed me to discover my limits and exceed them.'},
                     {type: 'txt', text: 'I’ve included evidence from two of my most challenging personal situations. Both situations demonstrate both personal and professional growth. The first was in my second clinical rotation when my clinical instructor and I differed in communication, personality, and expectations. I had no experience in the hospital outside of our half-time clinical rotations and was very overwhelmed. My CI challenged me, began timing my documentation within the first week, and routinely brought me out of my comfort zone. I worked tirelessly to improve my documentation, which appeared to be her biggest criticism, and was able to achieve an entry-level review in that area in her evaluation of me.'},
