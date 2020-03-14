@@ -242,7 +242,7 @@ export default {
         },
         {
           type: "picture",
-          resource: "/resources/Community/Pillow.png",
+          resource: "/resources/Community/IMG_4142.png",
           text: "community involvement 1"
         },
         {
