@@ -22,7 +22,7 @@ function Reflection({ match }) {
               if (result.type === "txt") {
                 return <p style={{width: "46em"}}>{result.text}</p>;
               } else if (result.type === "link") {
-                return <p><a href={result.resource} target="_blank">{result.text}</a></p>;
+                return <p><a href={result.resource} target="_blank" rel="noopener noreferrer">{result.text}</a></p>;
               } else {
                 if (result.thin) {
                   return <img src={result.resource} alt={result.text} style={{marginLeft: "0em", height: "4em"}} />;
