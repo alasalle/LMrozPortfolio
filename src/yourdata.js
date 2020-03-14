@@ -242,7 +242,7 @@ export default {
         },
         {
           type: "picture",
-          resource: "/resources/Community/IMG_4142.png",
+          resource: "/resources/Community/IMG_4142.jpg",
           text: "community involvement 1"
         },
         {
